@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "apiVersion": 1,
+  "id": "dev.havenmab.ampp.hle",
+  "name": "HLE 移植（地区/歌名/歌词）",
+  "author": "Havenmab",
+  "versionName": "0.1.0",
+  "versionCode": 1,
+  "entryClass": "dev.havenmab.ampp.hle.HlePlugin",
+  "minAndroidApi": 26,
+  "description": "把 HLE 的地区替换、中日韩歌曲原名修正（与歌词翻译/音译补全的预留位）移植为独立 AM++ 插件。已验证宿主：Apple Music 7.0.0-beta / versionCode 1606（目标表取自 AM++ 的 7.0.0-beta-1606 档案）。已知问题：Apple 官方音译在首次播放时不上屏，需要把 App 切到后台再切回来；本插件保留 native-write / presentation-refresh / pronunciation-words / render-probe 诊断词汇，但本轮不修复该问题。"
+}
